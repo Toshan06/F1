@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formula 1</title>
+    <style>
+        img{
+            max-width: 100%;
+            max-height: 100%;
+        }
+    </style>
+    <link rel="stylesheet" href="Styling.css">
+</head>
+<body background="speed_image.jpg">
+    <div class="container">
+        <h1 id="title">FORMULA MOTORSPORT</h1>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/0/0d/F1_%28registered_trademark%29.svg" alt="logo">
+            <h3 id="initial">This is the official webpage of Formula 1</h3>
+            <div class="profile">
+                <p>Formula 1, often abbreviated as F1, is the highest class of international single-seater
+                     auto racing sanctioned by the Fédération Internationale de l'Automobile (FIA). It’s known for being one of the most prestigious
+                     and technologically advanced forms of motorsport, featuring incredibly fast cars, cutting-edge technology, and global fanfare.
+                </p>
+            </div>
+            <div class="pic">
+                <img src="GBR1950.jpg" alt="image">
+                <img src="Farina.jpg" alt="image">
+            </div>
+            <div id="history">
+                <p>The first Formula one World Drivers' Champion was Giuseppe Farina in the 1950 Championship. </p>
+                <div class="pic1">
+                    <img src="Max2023.jpg" alt="image">
+                </div>
+                <p>The current WDC Holder is Max Verstaappen in the 2023 season.</p>
+            </div>
+
+            <div id="CurrentDriverGrid"></div>
+            <div id="CurrentConstructors"></div>
+            <div id="Drivers&ConstructorsStandings"></div>
+            <div id="PreviousRace"></div>
+            <div id="NextRaceCountdown"></div>
+            
+            <div class="background-swipe" id="back"></div>
+            <button onscroll="nextImage()"></button>
+    </div>
+</body>
+<script src="scriptF1.js"></script>
+</html>
